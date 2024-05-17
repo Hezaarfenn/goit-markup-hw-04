@@ -161,13 +161,24 @@ a {
 .first-button:hover,
 .first-button:focus {
     background-color: #404bbf;cursor: pointer;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /* SECOND PART */
 .second-part {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.second-part-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
 }
 
 .visually-hidden {
