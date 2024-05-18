@@ -268,17 +268,24 @@ a {
 .third-part ul {
     display: flex;
     gap: 24px;
-    list-style-type: none;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-                0px 1px 1px rgba(46, 47, 66, 0.16),
-                0px 2px 1px rgba(46, 47, 66, 0.08);
+    list-style-type: none;    
+}  
+
+.third-part img:hover,
+.third-part img:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 
 .third-list {
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc((100% - 3 * 24px) / 4);
     flex-basis: calc((100% - 72px) / 4);    
+}
+
+.third-list img {
+    transition: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .third-text {
