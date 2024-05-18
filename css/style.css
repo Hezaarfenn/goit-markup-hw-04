@@ -385,6 +385,32 @@ a {
 }
 
 /* FOOTER */
+.footer {
+    background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+}
+
+.footer-social-media-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.footer-social-media-ul {
+    display: flex;
+    gap: 16px;
+}
+
 .footer-text {
     line-height: 1.5;
     color:#f4f4fd;
@@ -392,11 +418,7 @@ a {
     max-width: 264px;
 }
 
-.footer {
-    background-color: #2e2f42;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+
 
 .span-footer {
     color: #f4f4fd;
