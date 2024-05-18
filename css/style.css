@@ -75,7 +75,7 @@ a {
     padding: 24px 0;
 }
 
-.header-list-li .link.current::after {
+.header-list-li .link::after {
     content: "";
     width: 100%;
     position: absolute;
