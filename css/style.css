@@ -322,6 +322,11 @@ a {
     background-color: #404bbf;
 }
 
+.footer-social-media-button:hover,
+.footer-social-media-button:focus {
+    background-color: #31d0aa;
+}
+
 .social-media-svg {
     width: 16px;
     height: 16px;
@@ -436,6 +441,10 @@ a {
 .footer-social-media-ul {
     display: flex;
     gap: 16px;
+}
+
+.footer-logo-text-container {
+    margin-right: 120px;
 }
 
 .footer-text {
