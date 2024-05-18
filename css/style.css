@@ -316,9 +316,15 @@ a {
     list-style-type: none;
 }
 
+.fourth-list {
+    width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 .fourt-list-img-text-container {
     position: relative;
-    overflow: hidden;    
+    overflow: hidden;
 }
 
 .fourth-list:hover {
@@ -345,7 +351,8 @@ a {
     height: 100%;
     width: 100%;
     transform: translateY(100%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .fourth-list:hover .fourt-list-text {
     transform: translateY(0);
@@ -368,10 +375,6 @@ a {
     letter-spacing: 0.02em;
     color:#2e2f42;
     margin-bottom: 8px;    
-}
-
-.fourth-list {
-    width: calc((100% - 48px) / 3);
 }
 
 .fourth-text {
