@@ -88,6 +88,10 @@ a {
     border-radius: 2px;
 }
 
+.header-list-li-index {
+    color:#404bbf
+}
+
 .header-ul {
     font-weight: 500;
     line-height: 1.5;
@@ -96,11 +100,6 @@ a {
     list-style-type: none;
     display: flex;
     gap: 40px;
-}
-
-.header-ul .link:hover,
-.header-ul .link:focus {
-    color: #404bbf;
 }
 
 .adress {
