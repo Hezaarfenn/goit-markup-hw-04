@@ -72,9 +72,12 @@ a {
 
 .header-list-li .link {
     color:#2e2f42;
-    padding: 24px 0;
-    position: relative;
+    padding: 24px 0;    
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-list-li .link:hover {
+    position: relative;
 }
 
 .navbar .link-studio {
