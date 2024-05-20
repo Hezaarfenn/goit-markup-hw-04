@@ -1,4 +1,10 @@
 /* GLOBAL */
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+}
+
 body {
     color: #434455;
     background-color: #ffffff;
