@@ -97,7 +97,6 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#404bbf;
-    list-style-type: none;
     display: flex;
     gap: 40px;
 }
@@ -126,7 +125,6 @@ a {
 
 .address-list-ul {
     display: flex;
-    list-style-type: none;
     gap: 40px;
 }
 
@@ -220,7 +218,6 @@ a {
 .second-part ul {
     display: flex;
     gap: 24px;
-    list-style-type: none;
 }
 
 .second-list-li {
@@ -267,8 +264,7 @@ a {
 
 .third-part ul {
     display: flex;
-    gap: 24px;
-    list-style-type: none;    
+    gap: 24px; 
 }  
 
 .third-part li:hover,
@@ -323,12 +319,6 @@ a {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-media-button:hover,
-.footer-social-media-button:focus {
-    background-color: #31d0aa;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .social-media-svg {   
     fill: #f4f4fd
 }
@@ -340,23 +330,26 @@ a {
     margin-bottom: 72px;
 }
 
+.fourth-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
+    margin-bottom: 72px;
+}
+
 .fourth-part ul {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    list-style-type: none;
 }
 
 .fourth-list {
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
-.fourt-list-img-text-container {
-    position: relative;
-    overflow: hidden;
 }
 
 .fourth-list:hover {
@@ -365,10 +358,9 @@ a {
                 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.fourth-title-text-div {    
-    padding: 32px 16px;
-    border: 1px solid#e7e9fc;
-    border-top: none;    
+.fourt-list-img-text-container {
+    position: relative;
+    overflow: hidden;
 }
 
 .fourt-list-text {
@@ -390,14 +382,10 @@ a {
     transform: translateY(0);
 }  
 
-.fourth-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color:#2e2f42;
-    margin-bottom: 72px;
+.fourth-title-text-div {    
+    padding: 32px 16px;
+    border: 1px solid#e7e9fc;
+    border-top: none;    
 }
 
 .fourth-subheading {
@@ -461,4 +449,10 @@ a {
 #footer-logo {
     display: inline-block;
     margin-bottom: 16px;
+}
+
+.footer-social-media-button:hover,
+.footer-social-media-button:focus {
+    background-color: #31d0aa;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
